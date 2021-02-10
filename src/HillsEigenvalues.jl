@@ -4,6 +4,6 @@ using SparseArrays, LinearAlgebra, Arpack
 
 include("eig_system.jl")
 
-export matrix_construct
+export matrix_construct, eigval_iterator
 
 end
